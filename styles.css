@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.foto-profil {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Sesuaikan ukuran foto */
+    height: 150px;
+    border-radius: 50%; /* Membuat foto menjadi bulat */
+    object-fit: cover;
+    border: 2px solid #333; /* Tambahkan border untuk estetika */
+}
+
+.profile, .experience, .education, .skills {
+    margin: 20px 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.job, .school {
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid #333;
+}
