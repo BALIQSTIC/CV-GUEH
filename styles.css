@@ -25,12 +25,14 @@ header {
     border-bottom: 2px solid #333;
 }
 
-header h1 {
-    margin-bottom: 10px;
+header h1:first-of-type {
+    margin-bottom: 15px; /* Memberi jarak antara judul pertama dan foto */
+    font-size: 1.8em; /* Ukuran font lebih besar */
 }
 
 .foto-profil {
     display: block;
+    margin-top: 10px; 
     margin: 0 auto;
     width: 150px; /* Sesuaikan ukuran foto */
     height: 150px;
